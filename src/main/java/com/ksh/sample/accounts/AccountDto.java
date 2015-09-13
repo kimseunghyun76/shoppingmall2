@@ -1,4 +1,4 @@
-package com.ksh.test.accounts;
+package com.ksh.sample.accounts;
 
 import lombok.Data;
 import org.hibernate.validator.constraints.NotBlank;

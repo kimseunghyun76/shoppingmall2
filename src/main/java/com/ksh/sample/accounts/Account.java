@@ -1,4 +1,4 @@
-package com.ksh.test.accounts;
+package com.ksh.sample.accounts;
 
 import java.util.Date;
 

@@ -1,4 +1,4 @@
-package com.ksh.test.commons;
+package com.ksh.sample.commons;
 
 import lombok.Data;
 

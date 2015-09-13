@@ -1,6 +1,6 @@
-package com.ksh.test.accounts;
+package com.ksh.sample.accounts;
 
-import com.ksh.test.commons.ErrorResponse;
+import com.ksh.sample.commons.ErrorResponse;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -46,12 +46,6 @@ public class AccountController {
         }
 
         Account newAccount = service.createAccount(create);
-        // 서비스 호출 후에 잘 적용 되었는지..
-        // 1. 리턴타입 사용 : null 이면 잘 안됐나봐요.
-        // if(newAccount == null) //에러 처리
-        // 2. 파라미터 이용 (result를 넣는 것) ==> 보다 직관적이다.
-        // service.createAccount(create,result);
-        // 3. 서비스에서 예외를 던지는 것이죠.
 
 
         // onSuccess & onFailure 의 형태로 비동기 타입형태로 처리를 하는 방식도 생긴다.

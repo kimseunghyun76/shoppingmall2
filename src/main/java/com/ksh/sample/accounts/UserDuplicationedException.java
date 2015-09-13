@@ -1,4 +1,4 @@
-package com.ksh.test.accounts;
+package com.ksh.sample.accounts;
 
 /**
  * Created by jooyoung on 2015-09-12.

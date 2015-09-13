@@ -1,6 +1,5 @@
-package com.ksh.test.accounts;
+package com.ksh.sample.accounts;
 
-import com.ksh.test.commons.ErrorResponse;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

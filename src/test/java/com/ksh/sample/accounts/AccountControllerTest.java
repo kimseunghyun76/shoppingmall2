@@ -1,4 +1,4 @@
-package com.ksh.test.accounts;
+package com.ksh.sample.accounts;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
@@ -22,7 +22,7 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.context.WebApplicationContext;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.ksh.test.Application;
+import com.ksh.sample.Application;
 
 
 /**

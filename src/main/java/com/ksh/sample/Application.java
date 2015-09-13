@@ -1,4 +1,4 @@
-package com.ksh.test;
+package com.ksh.sample;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.boot.SpringApplication;
